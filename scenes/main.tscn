@@ -1,3 +1,17 @@
 [gd_scene format=3 uid="uid://cdg7anik5iyvd"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Start" type="Button" parent="."]
+offset_left = 521.0
+offset_top = 255.0
+offset_right = 662.0
+offset_bottom = 314.0
+text = "Start"
+
+[node name="Exit" type="Button" parent="."]
+offset_left = 521.0
+offset_top = 343.0
+offset_right = 662.0
+offset_bottom = 402.0
+text = "Exit"
