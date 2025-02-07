@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://cdg7anik5iyvd"]
+[gd_scene load_steps=2 format=3 uid="uid://cdg7anik5iyvd"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_xmwxk"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_xmwxk")
 
 [node name="Start" type="Button" parent="."]
 offset_left = 521.0
@@ -15,3 +18,5 @@ offset_top = 343.0
 offset_right = 662.0
 offset_bottom = 402.0
 text = "Exit"
+
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
